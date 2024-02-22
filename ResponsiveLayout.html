@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width:90%;
+            min-height: 200px;
+            border: 4px solid grey;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .b1
+        {
+            width: 45%;
+            min-height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            
+        }
+        .b2
+        {
+            width: 45%;
+            min-height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:gray;
+        }
+         @media only screen and (max-width:769px)
+         {
+            .b1
+            {
+               background-color: blue;
+               color: white;
+            }
+            .b2
+            {
+                background-color: brown;
+                color: white;
+            }
+
+            }
+            @media only screen and (max-width:790px)
+         {
+            .b1
+            {
+               background-color:greenyellow;
+               color: white;
+            }
+            .b2
+            {
+                background-color: pink;
+                color: white;
+            }
+
+            }
+         
+    </style>
+       
+</head>
+<body>
+    <div class="box">
+        <div class="b1">
+             Box1
+        </div>
+        <div class="b2">
+             Box2
+        </div>
+
+    </div>
+</body>
+</html>
